@@ -7,6 +7,8 @@ RUN mkdir -p "/app/config"
 
 COPY ./bin/flixpatrol-top10-linux /app/flixpatrol-top10
 
+EXPOSE 5678
+
 VOLUME /app/config
 
 RUN chmod +x /app/flixpatrol-top10
